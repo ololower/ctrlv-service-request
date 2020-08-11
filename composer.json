@@ -1,0 +1,22 @@
+{
+    "name": "ctrlv/service-request",
+    "description": "Тестовая система для обработки данных",
+    "authors": [
+        {
+            "name": "Anatolii Koziura",
+            "email": "anatolii.koziura@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ctrlv\\ServiceRequest\\": "src/"
+        }
+    }
+}
